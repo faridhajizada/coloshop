@@ -1,0 +1,49 @@
+header {
+  padding: 2rem 0;
+  .siteName {
+    font-size: 24px;
+    color: #1e1e27;
+    font-weight: 900;
+    text-transform: uppercase;
+    span {
+      color: #ff0000;
+    }
+  }
+  .navList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    ul {
+      margin: 0 !important;
+      padding: 0;
+    }
+    li {
+      list-style: none;
+      margin: 0 20px;
+
+      a {
+        text-decoration: none;
+        color: #1e1e27;
+        font-weight: 600;
+        &:hover {
+          color: #ff0000;
+        }
+      }
+    }
+  }
+  .navIcon {
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      li {
+        margin: 0 15px;
+        list-style: none;
+        img {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

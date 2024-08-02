@@ -1,0 +1,40 @@
+.banner {
+  position: relative;
+  .bannerText {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 700px;
+    h2 {
+      font-size: 5rem;
+      margin-bottom: 1rem;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.658);
+      text-align: left;
+      line-height: 80px;
+    }
+    p {
+      color: black;
+      text-align: left;
+    }
+    .bannerBtn {
+      text-align: left;
+      button {
+        padding: 10px 20px;
+        background-color: #ff0000;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-top: 1rem;
+        cursor: pointer;
+        &:hover {
+          background-color: #1e1e27;
+        }
+      }
+    }
+  }
+}
